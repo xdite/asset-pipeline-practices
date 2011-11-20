@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<!--
+  Google HTML5 slide template
+
+  Authors: Luke Mahé (code)
+           Marcin Wichary (code and design)
+           
+           Dominic Mazzoni (browser compatibility)
+           Charles Chen (ChromeVox support)
+
+  URL: http://code.google.com/p/html5slides/
+-->
+
+<html>
+  <head>
+    <title>Presentation</title>
+    <meta charset='utf-8'>
+    <%= javascript_include_tag "slides.js" %>
+  </head>
+
+
+  <body style='display: none'>
+
+    <section class='slides layout-regular template-default'>
+      <%= yield %>
+    </section>
+
+  </body>
+</html>
