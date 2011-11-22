@@ -62,14 +62,14 @@ We are crazy...
 
 # Major Features 
 
- #1 asset compress / minify for fronend-scaling
+ #1 asset compress / minify for frontend-scaling
 
 !SLIDE
 
 
 # Major Features 
 
- #2 write SCSS / CoffScript directly
+ #2 write SCSS / CoffeeScript directly
 
 !SLIDE
 
@@ -87,7 +87,7 @@ We are crazy...
 
 !SLIDE
 
-# Sprockts
+# Sprockets
 
 * Ruby library for compiling and serving web assets.
 * declarative dependency management for JavaScript and CSS assets
@@ -103,7 +103,7 @@ https://github.com/sstephenson/sprockets
 
 * Fast by Default
 * Better way to write CSS / Javascript
-* Manage aseets more easily
+* Manage assets more easily
 * Leverage 3rd party works
 
 
@@ -115,10 +115,10 @@ Fast by Default
 
 !SLIDE
 
-# Frontent Scaling
+# Frontend Scaling
 
 * C/P value
-* Nework Latency: 500ms -> 5ms
+* Network Latency: 500ms -> 5ms
 * DB query: 50ms -> 20ms
 
 !SLIDE
@@ -301,7 +301,7 @@ The beautiful way to write Javascript
 
 ## What doest CoffeeScript do?
 
-* 改善 Sytax : JavaScript 目前使用的是與本身型態不搭嘎的 C / Java 語法。<br>
+* 改善 Syntax : JavaScript 目前使用的是與本身型態不搭嘎的 C / Java 語法。<br>
   - CoffeeScript 改採用了深受 Lisp 影響的 `Ruby` + `Python` 的混合語法。
 
 
