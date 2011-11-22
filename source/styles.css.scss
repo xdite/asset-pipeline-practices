@@ -323,11 +323,9 @@ h2 {
   font-size: 45px;
   line-height: 45px;
 
-  position: absolute;
-  bottom: 150px;
-
   padding: 0;
   margin: 0;
+  margin-top: 200px;
   padding-right: 40px;
 
   font-weight: 600;
@@ -376,7 +374,7 @@ ul:first-child {
   margin-top: 0;
 }
 ul ul {
-  margin-top: .5em;
+  margin-top: .5em !important;
 }
 li {
   padding: 0;
@@ -489,7 +487,7 @@ th {
   vertical-align: top;
 }
 
-.source {
+.source, .footnote {
   position: absolute;
   left: 60px;
   top: 644px;
