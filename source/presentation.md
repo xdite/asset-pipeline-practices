@@ -257,6 +257,7 @@ The natural way to write css
 * `extend` : 可將某些已經寫好的樣式，直接套入另外一組樣式中重複使用。
 * `mixin` : 可以預先寫好自定要被 mixin 的 function ，需要用時 include 進來
 * `import` : 可以把太長的 SCSS 拆開成一個一個的 partial，要用時 import 進來。
+  - Rails 的 view 太長可以拆 partial，<span class="green">**SCSS 也可以拆 partial**</span>
 
 !SLIDE smaller
 
@@ -282,7 +283,18 @@ The natural way to write css
 * by (Rails) controller
 * by page specific
 
+!SLIDE smaller
+## How we organize SCSS
+
+* header.scss
+* footer.scss
+* sidebar.scss
+* t17-widget.scss
+* mobile.scss
+* search.scss
+
 !SLIDE
+
 
 # CoffeeScript
 
@@ -365,6 +377,14 @@ sam.move()
 * 也更好寫測試了…
 * [ 抱歉沒有 code，因為我實在懶得寫測試 XD ]
 
+!SLIDE
+
+js2coffee.org
+<br>
+<img src="images/js2coffee.png" width="700">
+<br>
+
+線上體驗
 
 !SLIDE 
 
