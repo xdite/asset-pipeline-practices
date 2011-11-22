@@ -1,5 +1,7 @@
 require "rdiscount"
 
+
+
 Markdown = RDiscount
 
 # Borrow from showoff
